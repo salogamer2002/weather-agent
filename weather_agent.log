@@ -1,0 +1,100 @@
+2026-03-09 11:33:40,134 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.18.210:5000
+2026-03-09 11:33:40,134 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-09 11:33:46,247 - INFO - 127.0.0.1 - - [09/Mar/2026 11:33:46] "GET / HTTP/1.1" 200 -
+2026-03-09 11:33:49,026 - ERROR - Exception on /api/ask [POST]
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\spacetom\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\hp\Desktop\spacetom\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\hp\Desktop\spacetom\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\hp\Desktop\spacetom\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\spacetom\weather_agent_fireworks.py", line 659, in api_ask
+    is_valid, msg = InputValidator.validate_user_input(question)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'InputValidator' has no attribute 'validate_user_input'
+2026-03-09 11:33:49,060 - INFO - 127.0.0.1 - - [09/Mar/2026 11:33:49] "[35m[1mPOST /api/ask HTTP/1.1[0m" 500 -
+2026-03-09 11:33:53,409 - ERROR - Exception on /api/ask [POST]
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\spacetom\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\hp\Desktop\spacetom\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\hp\Desktop\spacetom\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\hp\Desktop\spacetom\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\spacetom\weather_agent_fireworks.py", line 659, in api_ask
+    is_valid, msg = InputValidator.validate_user_input(question)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'InputValidator' has no attribute 'validate_user_input'
+2026-03-09 11:33:53,412 - INFO - 127.0.0.1 - - [09/Mar/2026 11:33:53] "[35m[1mPOST /api/ask HTTP/1.1[0m" 500 -
+2026-03-09 11:33:54,626 - ERROR - Exception on /api/ask [POST]
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\spacetom\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\hp\Desktop\spacetom\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\hp\Desktop\spacetom\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\hp\Desktop\spacetom\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\spacetom\weather_agent_fireworks.py", line 659, in api_ask
+    is_valid, msg = InputValidator.validate_user_input(question)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'InputValidator' has no attribute 'validate_user_input'
+2026-03-09 11:33:54,629 - INFO - 127.0.0.1 - - [09/Mar/2026 11:33:54] "[35m[1mPOST /api/ask HTTP/1.1[0m" 500 -
+2026-03-09 11:33:55,507 - ERROR - Exception on /api/ask [POST]
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\spacetom\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\hp\Desktop\spacetom\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\hp\Desktop\spacetom\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\hp\Desktop\spacetom\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\spacetom\weather_agent_fireworks.py", line 659, in api_ask
+    is_valid, msg = InputValidator.validate_user_input(question)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'InputValidator' has no attribute 'validate_user_input'
+2026-03-09 11:33:55,510 - INFO - 127.0.0.1 - - [09/Mar/2026 11:33:55] "[35m[1mPOST /api/ask HTTP/1.1[0m" 500 -
+2026-03-09 11:49:25,123 - INFO - [LangChain] ReAct agent ready — accounts/fireworks/models/kimi-k2-instruct + ['get_current_weather', 'get_weather_forecast', 'get_city_coordinates', 'compare_weather']
+2026-03-09 11:49:25,150 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.18.210:5000
+2026-03-09 11:49:25,151 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-09 11:49:29,796 - INFO - 127.0.0.1 - - [09/Mar/2026 11:49:29] "GET / HTTP/1.1" 200 -
+2026-03-09 11:49:34,024 - ERROR - Agent error: {"error": {"message": "Model not found, inaccessible, and/or not deployed", "param": "model", "code": "NOT_FOUND", "type": "error"}, "request_id": "chatcmpl-9a84d02c3ef84dacbb6b26cb627854a4"}
+2026-03-09 11:49:34,025 - ERROR - Agent error: {"error": {"message": "Model not found, inaccessible, and/or not deployed", "param": "model", "code": "NOT_FOUND", "type": "error"}, "request_id": "chatcmpl-d8e6b8e470534f128591f7ebe59b3634"}
+2026-03-09 11:49:34,025 - INFO - Q: What is the weather in Karachi?...
+2026-03-09 11:49:34,025 - INFO - Q: What is the weather in Karachi?...
+2026-03-09 11:49:34,026 - INFO - 127.0.0.1 - - [09/Mar/2026 11:49:34] "POST /api/ask HTTP/1.1" 200 -
+2026-03-09 11:49:34,026 - INFO - 127.0.0.1 - - [09/Mar/2026 11:49:34] "POST /api/ask HTTP/1.1" 200 -
+2026-03-09 11:51:44,554 - INFO - [LangChain] ReAct agent ready — accounts/fireworks/models/kimi-k2-instruct-0905 + ['get_current_weather', 'get_weather_forecast', 'get_city_coordinates', 'compare_weather']
+2026-03-09 11:51:44,591 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.18.210:5000
+2026-03-09 11:51:44,592 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-09 11:51:49,842 - INFO - 127.0.0.1 - - [09/Mar/2026 11:51:49] "GET / HTTP/1.1" 200 -
+2026-03-09 11:51:54,516 - INFO - [Tool] get_current_weather -> Karachi
+2026-03-09 11:51:57,128 - INFO - Q: What is the weather in Karachi?...
+2026-03-09 11:51:57,130 - INFO - 127.0.0.1 - - [09/Mar/2026 11:51:57] "POST /api/ask HTTP/1.1" 200 -
+2026-03-09 11:52:14,071 - INFO - 127.0.0.1 - - [09/Mar/2026 11:52:14] "[31m[1mPOST /api/ask HTTP/1.1[0m" 400 -
+2026-03-09 11:52:21,893 - INFO - [Tool] get_weather_forecast -> London, 5 days
+2026-03-09 11:52:22,244 - INFO - [Tool] get_weather_forecast -> London, 5 days
+2026-03-09 11:52:25,938 - INFO - Q: Give me a 5-day forecast for London...
+2026-03-09 11:52:25,940 - INFO - 127.0.0.1 - - [09/Mar/2026 11:52:25] "POST /api/ask HTTP/1.1" 200 -
+2026-03-09 11:52:26,351 - INFO - Q: Give me a 5-day forecast for London...
+2026-03-09 11:52:26,353 - INFO - 127.0.0.1 - - [09/Mar/2026 11:52:26] "POST /api/ask HTTP/1.1" 200 -
