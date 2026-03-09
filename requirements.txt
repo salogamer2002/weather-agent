@@ -1,8 +1,8 @@
 flask==3.0.3
 python-dotenv==1.0.1
 requests==2.32.3
+langchain-fireworks==0.2.9
 langchain==0.3.25
-langchain-fireworks==1.1.0
 langchain-core==0.3.60
-langgraph==0.4.1
+langgraph==0.2.45
 gunicorn==23.0.0
