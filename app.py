@@ -391,7 +391,7 @@ _llm = ChatFireworks(
     max_tokens=1024,
 )
 
-_agent = create_react_agent(_llm, TOOLS, prompt=SYSTEM_PROMPT)
+_agent = create_react_agent(_llm, TOOLS, state_modifier=SYSTEM_PROMPT)
 logger.info(f"[LangChain] ReAct agent ready — {KIMI_K2_MODEL} + {[t.name for t in TOOLS]}")
 
 
